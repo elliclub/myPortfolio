@@ -6,11 +6,24 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <script src="script.js"></script>
- <title> My portfolio</title>
+ <title> My projects</title>
+ <style>
+body, html {
+    height: 100%;
+}
+.parallax {
+    background-image: url('pictures/oland.jpg') ;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
 </head>
 <body>
 <div class = "wrapper">
-    <header class="header">
+    <header class="header" id="myHeader">
         <div class="dropdown">
             <i class="dropbtn fa fa-bars fa-3x" onclick="myFunction()"></i>
             <div id="myDropdown" class="dropdown-content">
@@ -23,14 +36,30 @@
 </div>
 
 <article class="main">
-    <p>
-        </p>
 </article>
+
+<div class="parallax"></div>
+
+<div style="height:400px;background-color: #F8F1FF; font-size:17px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+
+<div style="height:400px;background-color: #F8F1FF;font-size:17px">
+Hej jag heter elli vad heter du Hej jag heter elli vad heter du 
+Hej jag heter elli vad heter du Hej jag heter elli vad heter du
+Hej jag heter elli vad heter du Hej jag heter elli vad heter du
+</div>
+<div class="parallax"></div>
+
 <footer class="footer">            
     Contact: 
         <a href="mailto:eleonor.dammfors@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/eleonor-dammfors-55550ab2/"class="linkedin"target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="https://github.com/elliclub/" class="github"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/eleonor-dammfors-55550ab2/" class="linkedin" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/elliclub/" class="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 </footer>
 
 

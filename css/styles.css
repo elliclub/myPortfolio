@@ -1,13 +1,12 @@
 body{
-
-padding: 3em;
+ padding: 3em;
 }
-
 .wrapper {
     display: flex;
     flex-flow: row wrap;
     
 }
+
 .wrapper > * {
     padding: 10px;
     flex: 1 100%;
@@ -22,9 +21,15 @@ padding: 3em;
 .header{
     display: flex;
     justify-content: flex-end;
+    background: white;
     overflow: hidden;
     border-bottom: 2px solid #F8F1FF;
-    
+}
+
+#image1{
+    margin-right: 800px;
+    margin-top: -10px;
+    border-radius: 50%;
 }
 
 .header a{
@@ -43,13 +48,13 @@ padding: 3em;
 }
 
 .me-link{
-    order: 1;
+    order: 2;
 }
 .home-page{
-    order: 1;
+    order: 3;
 }
 .project-link{
-    order:2;
+    order:4;
 }
 .footer {
     order: 3;
@@ -102,5 +107,8 @@ padding: 3em;
 .show {
     display: block;
     }
-    
+.parallax {
+    background-attachment: scroll;
+    }
 }
+
