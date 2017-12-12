@@ -1,10 +1,11 @@
 body{
  padding: 3em;
+ font-family:  Courier New, Courier, monospace;
 }
+
 .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .wrapper > * {
@@ -12,24 +13,87 @@ body{
     flex: 1 100%;
 }
 
-.main {
-    flex: 5 0px;
-    order:3;
-    text-align: center;
-}
-
 .header{
-    display: flex;
-    justify-content: flex-end;
     background: white;
     overflow: hidden;
     border-bottom: 2px solid #F8F1FF;
 }
+.right-header{
+     display: flex;
+    justify-content: flex-end;
 
-#image1{
-    margin-right: 800px;
-    margin-top: -10px;
+}
+.left-header{
+    margin-bottom: -15px;
+}
+.name{
+    font-family: cursive;
+    font-size: 30px;
+    color: #DECDF5;
+}
+
+#home img{
+    margin-top: 15px;
     border-radius: 50%;
+
+}
+h1{
+    font-size: 30px;
+}
+.home-cont{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+    margin-right: 100px;
+    
+}
+.about-cont{
+    display: flex;
+    margin-top: 200px;
+}
+.about-content p {
+    margin-bottom: 15px;
+}
+.about-content{
+    margin-top: 35px;
+    margin-left: -120px;
+}
+#insta-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    
+}
+#instafeed{
+    justify-content: flex-end;
+    border: 2px solid #DECDF5;
+    padding: 10px;
+    color: #656176;
+}
+
+#instafeed .instagram-text {
+    margin-top: 10px;
+}
+
+#instafeed a {
+    text-decoration: none;
+}
+.contact-cont{
+    display: flex;
+    margin-top: 100px;
+}
+.contact-content{
+    margin-top: 35px;
+    margin-left: -150px;
+}
+
+.contact-content ul {
+    margin-top: 10px;
+}
+
+.contact-content li {
+    float: left;
+    margin-right: 10px;
 }
 
 .header a{
@@ -47,20 +111,6 @@ body{
     color: #F8F1FF;
 }
 
-.me-link{
-    order: 2;
-}
-.home-page{
-    order: 3;
-}
-.project-link{
-    order:4;
-}
-.footer {
-    order: 3;
-    text-align: center;
-}
-
 @media (min-width: 1024px){
     .dropdown i {
         display: none;
@@ -68,11 +118,22 @@ body{
 }
 
 @media screen and (max-width: 1024px) {
-    
+    .img{
+        display: none;
+    }
+    .name{
+    font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .left-header{
+    margin-bottom: -30px;
+    }
 .dropbtn {
     border: none;
     cursor: pointer;
-    color: #DECDF5;;
+    color: #DECDF5;
     }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -107,8 +168,28 @@ body{
 .show {
     display: block;
     }
-.parallax {
-    background-attachment: scroll;
+.home-cont{
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
     }
+.about-cont{
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 20px;
+    }
+.about-content{
+    margin-top: -60px;
+    margin-left: -120px;
+}
+.contact-cont{
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+    }
+.about-content{
+    margin-top: 60px;
+    margin-left: -120px;
+}
 }
 
