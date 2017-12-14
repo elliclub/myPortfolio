@@ -91,7 +91,7 @@ h1 {
 	color: #DECDF5;
 }
 .header a:hover {
-	color: #656176;
+	color: #B486AB;
 }
 .header a:focus {
 	color: #F8F1FF;
@@ -111,7 +111,6 @@ h1 {
 	}
 	.name {
 		font-size: 20px;
-        color:#78586F;
 	}
 	p {
 		font-size: 20px;
@@ -122,7 +121,7 @@ h1 {
 	.dropbtn {
 		border: none;
 		cursor: pointer;
-		color: #78586F;
+		color: #DECDF5;
 	}
 	.dropbtn:hover, .dropbtn:focus {
 		color: #B486AB;
@@ -141,7 +140,6 @@ h1 {
 		z-index: 1;
 	}
 	.dropdown-content a {
-		color: #78586F;
 		padding: 12px 16px;
 		text-decoration: none;
 		display: block;
@@ -174,12 +172,6 @@ h1 {
 	}
 	.about-content {
 		margin-top: 60px;
-		margin-left: -120px;
+		margin-left: 300px;
 	}
-    #instafeed {
-	border: 2px solid #B486AB;
-    }
-    .header {
-	border-bottom: 2px solid #B486AB;
-    }
 }
