@@ -102,14 +102,19 @@ h1 {
 	}
 }
 @media screen and (max-width: 1024px) {
+    .wrapper {
+	    max-width: 100%;
+	    margin: 0 auto;
+    }
 	.img {
 		display: none;
 	}
 	.name {
-		font-size: 15px;
+		font-size: 20px;
+        color:#78586F;
 	}
 	p {
-		font-size: 10px;
+		font-size: 20px;
 	}
 	.left-header {
 		margin-bottom: -30px;
@@ -117,10 +122,10 @@ h1 {
 	.dropbtn {
 		border: none;
 		cursor: pointer;
-		color: #DECDF5;
+		color: #78586F;
 	}
 	.dropbtn:hover, .dropbtn:focus {
-		color: #656176;
+		color: #B486AB;
 	}
 	.dropdown {
 		position: relative;
@@ -136,14 +141,14 @@ h1 {
 		z-index: 1;
 	}
 	.dropdown-content a {
-		color: #DECDF5;
+		color: #78586F;
 		padding: 12px 16px;
 		text-decoration: none;
 		display: block;
 		font-size: 20px;
 	}
 	.dropdown-content a:hover {
-		color: #383838;
+		color: #B486AB;
 	}
 	.show {
 		display: block;
@@ -171,4 +176,10 @@ h1 {
 		margin-top: 60px;
 		margin-left: -120px;
 	}
+    #instafeed {
+	border: 2px solid #B486AB;
+    }
+    .header {
+	border-bottom: 2px solid #B486AB;
+    }
 }
