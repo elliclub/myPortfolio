@@ -5,10 +5,16 @@ body {
 .wrapper {
 	max-width: 80%;
 	margin: 0 auto;
+	display: flex;
+    flex-flow: row wrap;
+    height: 90%;
+    margin-top: 20px;
 }
 .wrapper>* {
 	padding: 10px;
 	flex: 1 100%;
+    flex-direction: column;
+    margin-top: 20px;
 }
 .header {
 	background: white;
@@ -39,8 +45,11 @@ h1 {
 	justify-content: flex-end;
 	margin-top: -150px;
 	margin-right: 100px;
+	flex: 2 0px;
+    order: 1;
 }
 .about-cont {
+	max-width: 50%;
 	display: flex;
 	margin-top: 200px;
 }
@@ -51,16 +60,20 @@ h1 {
 	margin-top: 35px;
 	margin-left: -120px;
 }
+
 #insta-img {
 	display: flex;
 	justify-content: flex-end;
-	margin-left: 50px;
+	flex: 1;
+    order: 2;
+	margin-top: -250px;
 }
 #instafeed {
 	justify-content: flex-end;
 	border: 2px solid #DECDF5;
 	padding: 10px;
 	color: #656176;
+    margin-bottom: 40px;
 }
 #instafeed .instagram-text {
 	margin-top: 10px;
@@ -71,9 +84,11 @@ h1 {
 }
 .contact-cont {
 	display: flex;
+	justify-content: center;
 	margin-top: 100px;
 }
 .contact-content {
+	order:3;
 	margin-top: 35px;
 	margin-left: -150px;
 }
@@ -110,10 +125,11 @@ h1 {
 		display: none;
 	}
 	.name {
-		font-size: 20px;
+		font-size: 15px;
+		margin-left: -10px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.left-header {
 		margin-bottom: -30px;
@@ -151,27 +167,39 @@ h1 {
 	.show {
 		display: block;
 	}
+	h1 {
+	font-size: 30px;
+	}
 	.home-cont {
+		display: flex;
 		justify-content: center;
+		max-width: 60%;
 		margin-top: 20px;
-		font-size: 20px;
+		margin-right: 100px;
+		flex: 2 0px;
+		order: 1;
 	}
+	
 	.about-cont {
+		display: flex;
 		justify-content: center;
-		margin-top: 60px;
-		font-size: 20px;
+		max-width: 60%;
+		margin-top: 100px;
+		
+		
 	}
-	.about-content {
-		margin-top: -60px;
-		margin-left: -120px;
+	
+	#instafeed {
+		border: none;
+		padding: 10px;
+		margin-right: 100px;
 	}
-	.contact-cont {
-		justify-content: center;
+	#insta-img {
+		flex: 1;
+		order: 2;
 		margin-top: 50px;
-		font-size: 20px;
+		margin-left: -70px;
+		text-align: center;
 	}
-	.about-content {
-		margin-top: 60px;
-		margin-left: 300px;
-	}
+
 }
