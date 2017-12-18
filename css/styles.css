@@ -99,18 +99,30 @@ h1 {
 	float: left;
 	margin-right: 10px;
 }
-.header a {
+.header a{
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
 	color: #DECDF5;
 }
-.header a:hover {
+.header a:hover{
 	color: #B486AB;
 }
 .header a:focus {
 	color: #F8F1FF;
 }
+.school{
+	text-decoration: none;
+	font-size: 17px;
+	color: #656176;
+}
+.school:hover{
+	color: #B486AB;
+}
+.school:focus {
+	color: #F8F1FF;
+}
+
 
 
 @media (min-width: 1024px) {
