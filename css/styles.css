@@ -26,17 +26,18 @@ body {
 .left-header {
 	margin-bottom: -15px;
 }
-.name {
-	font-family: cursive;
-	font-size: 30px;
-	color: #DECDF5;
-}
+
 #home img {
 	margin-top: 15px;
 	border-radius: 50%;
 }
 h1 {
+	font-family: cursive;
+	color: #DECDF5;
 	font-size: 30px;
+}
+h2{
+	font-size: 25px;
 }
 .home-cont {
 	display: flex;
