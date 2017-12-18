@@ -85,11 +85,11 @@ h1 {
 .contact-cont {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .contact-content {
 	order:3;
-	margin-top: 35px;
+	margin-top: 50px;
 	margin-left: -150px;
 }
 .contact-content ul {
@@ -111,6 +111,8 @@ h1 {
 .header a:focus {
 	color: #F8F1FF;
 }
+
+
 @media (min-width: 1024px) {
 	.dropdown i {
 		display: none;
@@ -173,7 +175,7 @@ h1 {
 	.home-cont {
 		display: flex;
 		justify-content: center;
-		max-width: 60%;
+		max-width: 65%;
 		margin-top: 20px;
 		margin-right: 100px;
 		flex: 2 0px;
@@ -183,7 +185,7 @@ h1 {
 	.about-cont {
 		display: flex;
 		justify-content: center;
-		max-width: 60%;
+		max-width: 80%;
 		margin-top: 100px;
 		
 		
@@ -192,7 +194,7 @@ h1 {
 	#instafeed {
 		border: none;
 		padding: 10px;
-		margin-right: 100px;
+		max-width: 100%;
 	}
 	#insta-img {
 		flex: 1;
