@@ -5,13 +5,11 @@ body {
 .wrapper {
 	max-width: 80%;
 	margin: 0 auto;
-	display: flex;
     flex-flow: row wrap;
     height: 90%;
     margin-top: 20px;
 }
 .wrapper>* {
-	padding: 10px;
 	flex: 1 100%;
     flex-direction: column;
     margin-top: 20px;
@@ -46,7 +44,6 @@ h1 {
 	margin-top: -150px;
 	margin-right: 100px;
 	flex: 2 0px;
-    order: 1;
 }
 .about-cont {
 	max-width: 50%;
@@ -65,10 +62,9 @@ h1 {
 	display: flex;
 	justify-content: flex-end;
 	flex: 1;
-    order: 2;
 	margin-top: -250px;
 }
-#instafeed {
+#instafeed > div{
 	justify-content: flex-end;
 	border: 2px solid #DECDF5;
 	padding: 10px;
@@ -76,42 +72,33 @@ h1 {
     margin-bottom: 40px;
 }
 #instafeed .instagram-text {
-	text-align: center;
 	margin-top: 10px;
 }
 #instafeed a {
 	text-decoration: none;
 	color: #656176;
 }
-.contact-cont {
+footer {
+	margin-top: 300px;
+}
+footer > div {
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	margin-top: 200px;
 }
-.contact-content {
-	align-self: center;
-	order:3;
-	margin-top: 50px;
-	margin-left: -110px;
+footer ul {
+	margin-left: 10px;
 }
-.contact-content ul {
+footer li {
 	float: left;
-	text-align: center;
-	margin-top: 10px;
-	
+	margin-right: 10px;
 }
-.contact-content li {
-	float: left;
-	margin-right: 20px;
-}
-.header a{
+.header a {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
 	color: #DECDF5;
 }
-.header a:hover{
+.header a:hover {
 	color: #B486AB;
 }
 .header a:focus {
@@ -119,17 +106,12 @@ h1 {
 }
 .school{
 	text-decoration: none;
-	font-size: 17px;
-	color: #656176;
+	color: #DECDF5;
 }
-.school:hover{
+.about-content a:hover{
 	color: #B486AB;
-}
-.school:focus {
-	color: #F8F1FF;
-}
 
-
+}
 
 @media (min-width: 1024px) {
 	.dropdown i {
@@ -197,29 +179,29 @@ h1 {
 		margin-top: 20px;
 		margin-right: 100px;
 		flex: 2 0px;
-		order: 1;
 	}
 	
 	.about-cont {
 		display: flex;
 		justify-content: center;
-		max-width: 80%;
+		max-width: 100%;
 		margin-top: 100px;
-		
-		
 	}
-	
 	#instafeed {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	#instafeed > div {
 		border: none;
-		padding: 10px;
 		max-width: 100%;
 	}
 	#insta-img {
 		flex: 1;
-		order: 2;
 		margin-top: 50px;
-		margin-left: -70px;
+		padding: 0;
 		text-align: center;
 	}
-
+	footer {
+		margin: 0;
+	}
 }
