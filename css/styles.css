@@ -76,6 +76,7 @@ h1 {
     margin-bottom: 40px;
 }
 #instafeed .instagram-text {
+	text-align: center;
 	margin-top: 10px;
 }
 #instafeed a {
@@ -85,19 +86,24 @@ h1 {
 .contact-cont {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	margin-top: 200px;
 }
 .contact-content {
+	align-self: center;
 	order:3;
 	margin-top: 50px;
-	margin-left: -150px;
+	margin-left: -110px;
 }
 .contact-content ul {
+	float: left;
+	text-align: center;
 	margin-top: 10px;
+	
 }
 .contact-content li {
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .header a{
 	padding: 14px 16px;
