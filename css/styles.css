@@ -168,6 +168,7 @@ footer li {
 	}
 	h1 {
 		font-size: 30px;
+		margin-left: 4px;
 	}
 	.home-cont {
 		display: flex;
