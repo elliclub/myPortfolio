@@ -111,7 +111,7 @@ footer li {
 	color: #B486AB;
 }
 @media (min-width: 1024px) {
-	.dropdown i {
+	.dropdown span {
 		display: none;
 	}
 }
